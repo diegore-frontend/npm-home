@@ -1,2 +1,2 @@
-# npm-host
-Npm Package container repository
+# npm-home
+Npm Home Package
