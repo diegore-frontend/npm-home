@@ -1,3 +1,9 @@
+@import "@mentor-io/npm-ui-library/src/styles";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-    background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
