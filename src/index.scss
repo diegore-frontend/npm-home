@@ -1,9 +1,11 @@
-@import "@mentor-io/npm-ui-library/src/styles";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 16px;
+  grid-auto-rows: minmax(100px, auto);
+  padding: 16px 0;
 }
